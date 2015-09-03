@@ -8,9 +8,13 @@ Things/Features to be done in this project
 - [x] code-highlighting.
 - [x] Module Loading in Javascript.
 - [x] Permalinks
-- [ ] Collections
-- [ ] Routing
+- [x] Collections
+- [x] Routing
+- [x] Global Metadata
+- [ ] Pagination
+- [ ] Article Snippets
+- [ ] ES6 support for Dev in Javascript.
+- [ ] comments
 - [ ] Info Pages
 - [ ] Costum Pages
 - [ ] Others
-- [ ] ES6 support for Dev in Javascript.
