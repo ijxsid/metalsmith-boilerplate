@@ -12,3 +12,4 @@ Things/Features to be done in this project
 - [ ] Info Pages
 - [ ] Costum Pages
 - [ ] Others
+- [ ] ES6 support for Dev in Javascript.

@@ -14,10 +14,7 @@ metalsmith(__dirname)
   .use(markdown(require('./config/markdown')))
   .use(templates(require('./config/templates')))
   .use(stylus(require('./config/stylus')))
-  .use(browserify({
-    files: ['/scripts/index.js'],
-    dest: '/js/bundle.js'
-  }))
+  .use(browserify(require('./config/browserify')))
   .destination('build')
   .use(browsersync(require('./config/browsersync')))
   .build(function(err){

@@ -24,6 +24,6 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-stylus": "^1.0.0",
     "metalsmith-templates": "^0.7.0",
-    "underscore": "^1.8.3",
+    "underscore": "^1.8.3"
   }
 }
