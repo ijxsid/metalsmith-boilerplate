@@ -16,6 +16,7 @@
   "author": "FalloutX <inderjitsidhu@outlook.com>",
   "license": "MIT",
   "dependencies": {
+    "babelify": "^6.3.0",
     "highlight.js": "^8.7.0",
     "jade": "^1.11.0",
     "metalsmith": "^2.0.1",

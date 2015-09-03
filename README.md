@@ -13,7 +13,8 @@ Things/Features to be done in this project
 - [x] Global Metadata
 - [x] Pagination
 - [x] Article Snippets
-- [ ] ES6 support for Dev in Javascript.
+- [x] ES6 support for Dev in Javascript.
+- [x] XML Feed.
 - [ ] comments
 - [ ] Info Pages
 - [ ] Costum Pages
