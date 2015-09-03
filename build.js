@@ -10,6 +10,7 @@ var collections = require('metalsmith-collections');
 var define = require('metalsmith-define');
 var paginate = require('metalsmith-pagination');
 var snippets = require('metalsmith-snippet');
+var date = require('metalsmith-build-date');
 
 console.log('dirname => ', __dirname);
 
@@ -19,6 +20,7 @@ metalsmith(__dirname)
   .use(collections(require('./config/collections')))
   .use(paginate(require('./config/pagination.js')))
   .use(markdown(require('./config/markdown')))
+  .use(date())
   .use(snippets(require('./config/snippets')))
   .use(permalinks(require('./config/permalinks')))
   .use(templates(require('./config/templates')))
