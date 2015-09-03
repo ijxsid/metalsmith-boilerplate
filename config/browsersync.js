@@ -1,4 +1,7 @@
 module.exports = {
-  server: 'build',
-  files: ['src/**/*.md', 'src/**/*.styl', 'templates/**/*.jade', 'src/**/*.js']
+  server: {
+    baseDir: 'build',
+    index: 'index.html'
+  },
+  files: ['src/**/*.*', 'templates/**/*.jade']
 }

@@ -1,6 +1,6 @@
 ---
 title: My First Article.
-date: 2015-09-03 00:15
+date: 2015-09-03
 author: Inderjit Sidhu
 template: article.jade
 ---

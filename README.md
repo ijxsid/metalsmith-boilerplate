@@ -7,7 +7,8 @@ Things/Features to be done in this project
 - [x] Live Reloading.
 - [x] code-highlighting.
 - [x] Module Loading in Javascript.
-- [ ] Archives
+- [x] Permalinks
+- [ ] Collections
 - [ ] Routing
 - [ ] Info Pages
 - [ ] Costum Pages
