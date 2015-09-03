@@ -11,8 +11,8 @@ Things/Features to be done in this project
 - [x] Collections
 - [x] Routing
 - [x] Global Metadata
-- [ ] Pagination
-- [ ] Article Snippets
+- [x] Pagination
+- [x] Article Snippets
 - [ ] ES6 support for Dev in Javascript.
 - [ ] comments
 - [ ] Info Pages
