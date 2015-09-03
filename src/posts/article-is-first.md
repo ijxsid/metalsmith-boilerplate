@@ -5,4 +5,4 @@ author: Inderjit Sidhu
 template: article.jade
 ---
 
-Example content.
+This is my Diary. A best of its kind. Youtube is not Banned in my city. Yay!
