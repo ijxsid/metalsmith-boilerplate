@@ -11,6 +11,7 @@ html(lang='en')
           span.timestamp= post.date
           h2
             a(href='./' + post.path)= post.title
+          p= post.snippet
     
     nav
      if pagination.previous
