@@ -8,6 +8,7 @@ var browserify = require('metalsmith-browserify');
 var permalinks = require('metalsmith-permalinks');
 var collections = require('metalsmith-collections');
 var define = require('metalsmith-define');
+var paginate = require('metalsmith-pagination');
 
 console.log('dirname => ', __dirname);
 
@@ -15,6 +16,7 @@ metalsmith(__dirname)
   .source('src')
   .use(define(require('./config/metadata')))
   .use(collections(require('./config/collections')))
+  .use(paginate(require('./config/pagination.js')))
   .use(markdown(require('./config/markdown')))
   .use(permalinks(require('./config/permalinks')))
   .use(templates(require('./config/templates')))

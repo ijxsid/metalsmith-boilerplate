@@ -5,9 +5,17 @@ html(lang='en')
     meta(name='viewport', content='width=device-width')
     title= blog.title
   body
-    each post in collections.posts
+    each post in pagination.files
       article.content-article
         header
           span.timestamp= post.date
           h2
             a(href='./' + post.path)= post.title
+    
+    nav
+     if pagination.previous
+       a.btn(href='/' + paginate.previous.path)
+         | Newer
+     if pagination.next
+       a.btn(href='/' + paginate.next.path)
+         | Older
