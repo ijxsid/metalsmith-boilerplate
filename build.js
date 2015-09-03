@@ -11,7 +11,7 @@ var define = require('metalsmith-define');
 var paginate = require('metalsmith-pagination');
 var snippets = require('metalsmith-snippet');
 var date = require('metalsmith-build-date');
-
+var uglify =require('metalsmith-uglify');
 console.log('dirname => ', __dirname);
 
 metalsmith(__dirname)
@@ -27,6 +27,7 @@ metalsmith(__dirname)
   .use(stylus(require('./config/stylus')))
   .use(browserify(require('./config/browserify')))
   .destination('build')
+  .use(uglify())
   .use(browsersync(require('./config/browsersync')))
   .build(function(err){
     if (err){

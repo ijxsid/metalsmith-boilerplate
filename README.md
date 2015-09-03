@@ -15,6 +15,7 @@ Things/Features to be done in this project
 - [x] Article Snippets
 - [x] ES6 support for Dev in Javascript.
 - [x] XML Feed.
+- [ ] Uglify Javascript
 - [ ] comments
 - [ ] Info Pages
 - [ ] Costum Pages

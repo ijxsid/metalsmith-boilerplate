@@ -30,6 +30,7 @@
     "metalsmith-snippet": "^1.0.1",
     "metalsmith-stylus": "^1.0.0",
     "metalsmith-templates": "^0.7.0",
+    "metalsmith-uglify": "^1.2.0",
     "moment": "^2.10.6",
     "underscore": "^1.8.3"
   }
