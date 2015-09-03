@@ -10,10 +10,7 @@ metalsmith(__dirname)
   .use(templates(require('./config/templates')))
   .use(stylus(require('./config/stylus')))
   .destination('build')
-  .use(browsersync({
-  server: 'build',
-  files: ['src/**/*.md', 'src/**/*.styl', 'templates/**/*.jade']
-  }))
+  .use(browsersync(require('./config/browsersync')))
   .build(function(err){
     if (err){
       throw err;
