@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "httpster -d ./build/",
-    "build": "node --harmony build.js"
+    "start": "node --harmony build.js"
   },
   "keywords": [
     "metalsmith",
